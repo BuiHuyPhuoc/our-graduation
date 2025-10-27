@@ -125,7 +125,7 @@ module.exports = async (req, res) => {
 
         // Gửi mail
         const { data, error } = await resend.emails.send({
-            from: 'Phước và Trân <onboarding@resend.dev>', // Cập nhật tên và domain của bạn
+            from: 'PnT <puuandmimi.our-graduation@puuandmimi.me>', // Cập nhật tên và domain của bạn
             to: [email],
             subject: emailSubject,
             html: emailHtml,
